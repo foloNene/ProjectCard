@@ -1,0 +1,106 @@
+.TotalContainer {
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+input {
+  width: 70%;
+  height: 25px;
+}
+
+input[type="text"] {
+  border: 2px solid red;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.PersonImg {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: var(--light-shadow);
+}
+
+.TugorButton {
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+}
+
+.TugorButton:hover {
+  background-color: blue;
+  /* Green */
+  color: white;
+}
+
+.DeleteButton {
+  background-color: white;
+  color: black;
+  border: none;
+  transition-duration: 0.4s;
+  font-size: 10px;
+}
+
+.DeleteButton:hover {
+  background-color: red;
+  /* Green */
+  color: white;
+  font-size: 20px;
+}
+
+.Links {
+  color: black;
+}
+
+.Links:hover {
+  /* background-color: whitesmoke; */
+  color: blue;
+}
+
+.RefreshButton{
+   background-color: grey;
+    border: none;
+     color: white;
+     padding: 15px 32px;
+    text-align: center;
+   text-decoration: none;
+    display: inline-block;
+   font-size: 16px;
+   transition-duration: 0.4s;
+        
+}
+
+.RefreshButton:hover {
+  background-color: green;
+  color: white;
+   font-size: large;
+}
+
+.CreateButton{
+   background-color: grey;
+   border: none;
+   color: white;
+   padding: 10px 15px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 10px;
+   transition-duration: 0.4s;
+}
+.CreateButton:hover {
+   background-color: green;
+   color: white;
+   font-size: medium;
+}
